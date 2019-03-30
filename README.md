@@ -12,7 +12,7 @@
 
 `git flow feature start nomeFeature`
 
-###### 1.  Cria uma feature branch baseada na develop
+###### 1.  Cria uma feature branch local baseada na develop
 ###### 2.  Muda para feature branch criada
 
 ##### Finalizar uma funcionalidade 
@@ -26,6 +26,10 @@
 ##### Publicar funcionalidade
 
 `git flow feature publish nomeFeature`
+
+###### 1.  Cria feature branch remota
+###### 2.  Sincroniza local com remota
+###### 3.  Vai para branch criada
 
 ##### Obter funcionalidade publicada
 
